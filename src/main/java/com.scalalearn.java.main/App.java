@@ -34,10 +34,8 @@ public class App {
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
-            {   if (j<n-1)
-                {out.write(x[i][j]+",");}
-                else
-                {out.write(x[i][j]+"\t");}
+            {   
+                out.write(x[i][j]+"\t");
 
             }
             out.write("\r\n");
